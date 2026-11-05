@@ -19,7 +19,7 @@ ROOT_FILES = ['README.md', 'LICENSE.txt', 'ATTRIBUTION.md', 'CHANGELOG.md', 'VER
 DOC_FILES = ['FEATURES.md', 'NETWORK-AND-PRIVACY.md', 'QWEATHER.md', 'TESTING.md',
              'MAINTAINING.md', 'INSTALL-UPGRADE.md', 'PACKAGING.md', 'VM-INSTALL-TEST.md']
 DEV_FILES = ['tools/build.py', 'tests/test_build.py', 'tests/test_upgrade.py']
-PREVIEW_FILES = ['docs/images/preview.png']
+PREVIEW_FILES = ['docs/images/calendar.png', 'docs/images/weather.png']
 FIXED_TIME = (2026, 11, 4, 0, 0, 0)
 
 def digest(data): return hashlib.sha256(data).hexdigest()

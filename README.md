@@ -1,6 +1,6 @@
 # 晴历 Qingli
 
-简洁的 Rainmeter 桌面日历与天气小组件，让日期、农历和天气在桌面上一眼可见。
+简洁的 Rainmeter 桌面日历与天气小组件，支持农历、五日天气预报和自定义配色。
 
 当前版本：**0.1.0-beta.2** · Windows / Rainmeter · 仓库名：`qingli-widgets`
 
@@ -8,9 +8,13 @@
 
 ## 预览
 
-![晴历日历与天气小组件预览，天气地点已隐藏](docs/images/preview.png)
+<p align="center">
+  <img src="docs/images/calendar.png" alt="晴历日历：月历、当天高亮与农历" width="400" />
+  &nbsp;
+  <img src="docs/images/weather.png" alt="晴历天气：广州市天气与五日预报" width="400" />
+</p>
 
-实际运行画面，已裁去桌面并遮盖地点栏。天气数值仅为截图当时的展示；图中使用可选的和风天气，首次安装默认使用无需个人 Key 的 Open-Meteo。
+实际运行截图，展示日历与天气两张卡片。天气数值为截图当时的数据；图中使用可选的和风天气，首次安装默认使用无需个人 Key 的 Open-Meteo。
 
 ## 功能
 
