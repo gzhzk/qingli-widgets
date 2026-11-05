@@ -4,4 +4,4 @@
 
 包内不能含Settings.inc、Accent.inc、Material.inc或QWeather.local.json，只有各自.defaults.inc模板和空凭据示例。Start在首次加载时调用Bootstrap.lua，只初始化缺失inc；不读取或创建Key。升级保留旧文件，模板可以更新。
 
-官方包创建后核对rmskin.ini、完整包内文件和官方格式尾部，计算SHA256；不要改写已生成包内内容。真实安装/升级仍由虚拟机执行。
+官方包创建后核对rmskin.ini、完整包内文件和官方格式尾部，计算SHA256；不要改写已生成包内内容。源码有变化时从独立的干净皮肤副本重新使用官方打包器生成，不能手工拼装 .rmskin。真实安装/升级与静态包检查分开记录。

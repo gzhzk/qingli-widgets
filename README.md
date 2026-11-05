@@ -4,7 +4,7 @@
 
 当前版本：**0.1.0-beta.2** · Windows / Rainmeter · 仓库名：`qingli-widgets`
 
-目前提供源码安装，尚未发布安装包 Release。
+提供 [Beta 安装包](https://github.com/gzhzk/qingli-widgets/releases/tag/v0.1.0-beta.2)，也支持源码安装。需要 Agent 帮忙安装时，请让它阅读 [AGENT-INSTALL.md](AGENT-INSTALL.md)。
 
 ## 预览
 
@@ -30,6 +30,14 @@
 “柔透”使用半透明填充，不包含系统背景模糊。更多交互细节见 [功能说明](docs/FEATURES.md)。
 
 ## 安装
+
+### 使用安装包
+
+从 [Release 页面](https://github.com/gzhzk/qingli-widgets/releases/tag/v0.1.0-beta.2) 下载 `.rmskin` 和 `SHA256SUMS.txt`，使用 PowerShell 的 `Get-FileHash -Algorithm SHA256` 核对安装包校验值，再双击交给官方 Rainmeter 安装器安装。
+
+首次安装后，在管理 Rainmeter 中加载 `Qingli/Start/Start.ini`。安装包不会自动加载皮肤或套用全局布局；升级前先备份设置和布局，安装器可能重启 Rainmeter。已有用户请同时阅读下方“升级与保留设置”，升级时不要重新加载 Start。
+
+Agent 或希望直接复制文件的用户可使用 Release 中的 skin ZIP，按 [Agent 安装说明](AGENT-INSTALL.md) 校验并安装。以下为手动源码安装方式。
 
 ### 1. 安装 Rainmeter
 

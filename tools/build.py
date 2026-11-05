@@ -14,7 +14,7 @@ ICONS = ['cloudy-night', 'cloudy', 'drizzle', 'fog', 'location', 'night',
          'overcast', 'rain', 'snow', 'sunny', 'thunder-night', 'thunder', 'unknown']
 SCRIPTS = ['Accent.lua', 'Bootstrap.lua', 'Calendar.lua', 'FetchQWeather.ps1', 'Json.lua', 'Launch.lua',
            'Lunar.lua', 'Material.lua', 'QWeather.lua', 'Storage.lua', 'Weather.lua']
-ROOT_FILES = ['README.md', 'LICENSE.txt', 'ATTRIBUTION.md', 'CHANGELOG.md', 'VERSION',
+ROOT_FILES = ['README.md', 'AGENT-INSTALL.md', 'LICENSE.txt', 'ATTRIBUTION.md', 'CHANGELOG.md', 'VERSION',
               'SOURCE-NOTES.json', 'VALIDATION.md', 'RELEASE-NOTES.md', '.gitignore', '.gitattributes']
 DOC_FILES = ['FEATURES.md', 'NETWORK-AND-PRIVACY.md', 'QWEATHER.md', 'TESTING.md',
              'MAINTAINING.md', 'INSTALL-UPGRADE.md', 'PACKAGING.md', 'VM-INSTALL-TEST.md']

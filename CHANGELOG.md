@@ -1,6 +1,8 @@
 # 修改记录
 
-## 0.1.0-beta.2（未发布）
+## 0.1.0-beta.2（2026-11-05，Beta 预览版）
+
+- 提供官方 .rmskin、皮肤 ZIP、源码 ZIP 与 SHA256；新增 Agent 安装说明，保留已脱敏的功能预览。
 
 - 为官方Merge安装器将三个默认inc改为.defaults.inc模板；新增Bootstrap，仅创建缺失的用户配置。
 - Start先完成初始化后加载两卡；Key从不随包分发、初始化或覆盖。安装包不自动加载Start，不包含全局layout。
