@@ -1,0 +1,65 @@
+{
+  "preparation_id": "Qingli-v0.1.0-beta.2",
+  "prepared_date": "2026-11-05",
+  "state": "public-source-preview",
+  "skin_metadata_version": "0.1.0-beta.2",
+  "upstream": {
+    "author": "Creewick",
+    "repository": "https://github.com/creewick/MontereyRainmeter",
+    "license": "CC-BY-NC-SA-4.0",
+    "base_commit": null
+  },
+  "baseline": {
+    "kind": "reviewed-local-source-snapshot",
+    "file_count": 54,
+    "inventory_sha256": "a86a552cb53087aa4bf84312505be42909e00988b182fbb0f55b01791d75982b"
+  },
+  "runtime_script_changes": [
+    "Weather.lua: inherited project log prefix",
+    "Bootstrap.lua: create missing settings only",
+    "Launch.lua: initialize missing settings before activating cards"
+  ],
+  "runtime_configuration_changes": {
+    "@Resources/Refined/Settings.inc": {
+      "WeatherProvider": [
+        "QWeather",
+        "OpenMeteo"
+      ],
+      "DirectRouteVerified": [
+        "1",
+        "0"
+      ],
+      "comments": "Explain optional local credentials and device-specific route verification."
+    }
+  },
+  "documentation": "Current public documentation replaces internal delivery records; known derivative changes retained in CHANGELOG.md.",
+  "runtime_verified_in_this_preparation": false,
+  "qweather_v7_migrated": false,
+  "third_party_records": [
+    "Qingli/METEOCONS-SOURCES.json",
+    "Qingli/ICON-SOURCE.txt",
+    "ATTRIBUTION.md"
+  ],
+  "project": {
+    "name": "晴历",
+    "english_name": "Qingli",
+    "repository_name": "qingli-widgets",
+    "trademark_clearance": "not-completed"
+  },
+  "metadata_changes": "Three INI names, version, adaptation credit; Start loading label.",
+  "installer_rmskin_created": true,
+  "published": true,
+  "rmskin_policy": {
+    "MergeSkins": 1,
+    "after_install": "Do nothing",
+    "VariablesFiles": "",
+    "mutable_files_in_payload": false
+  },
+  "official_packager_version": "4.5.28.3936",
+  "publication": {
+    "repository": "gzhzk/qingli-widgets",
+    "visibility": "public",
+    "source_only": true,
+    "installer_release_published": false
+  }
+}

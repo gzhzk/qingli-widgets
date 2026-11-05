@@ -1,0 +1,10 @@
+[Variables]
+MaterialProfile=Soft
+CalendarAlpha=222
+WeatherAlpha=188
+GlassCalendarColor=250,253,255
+GlassWeatherTop=95,161,217
+GlassWeatherBottom=54,125,190
+GlassSheen=14
+GlassEdgeTop=44
+GlassEdgeBottom=12

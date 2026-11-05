@@ -1,0 +1,140 @@
+{
+  "author": "Bas Milius",
+  "license": "MIT",
+  "version": "3.0.0-next.10",
+  "style": "static fill",
+  "assets": [
+    {
+      "file": "sunny.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/clear-day.svg",
+      "bbox": [
+        16,
+        16,
+        240,
+        240
+      ],
+      "sha256": "7f7d3e52589ef8f047c4a502ca329c083d204ccac47580df9bfa6af7cf8f3499"
+    },
+    {
+      "file": "cloudy.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/partly-cloudy-day.svg",
+      "bbox": [
+        16,
+        51,
+        240,
+        205
+      ],
+      "sha256": "35a15087bd19a99c5154755bc259b2f7c2853d012ac8f94060c334ea5dcd86c9"
+    },
+    {
+      "file": "rain.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/rain.svg",
+      "bbox": [
+        16,
+        35,
+        240,
+        220
+      ],
+      "sha256": "154b84b4891f36d225772d77f5c56eaf6fada08e56e9a0b71daabdaefcec35f7"
+    },
+    {
+      "file": "thunder.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/thunderstorms-day-rain.svg",
+      "bbox": [
+        16,
+        24,
+        240,
+        232
+      ],
+      "sha256": "eee67776542430b0b293a5a1dd2820556b1ecf127b1bb8443cd091af9f5f48ec"
+    },
+    {
+      "file": "night.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/clear-night.svg",
+      "bbox": [
+        16,
+        16,
+        240,
+        240
+      ],
+      "sha256": "6786621bf60ea404a54023589b3ff89aded65bc75ced8115a2837255c9a48913"
+    },
+    {
+      "file": "cloudy-night.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/partly-cloudy-night.svg",
+      "bbox": [
+        16,
+        51,
+        240,
+        205
+      ],
+      "sha256": "70416fa9b47b5631dea3edfb6c0afb9b2d6d281c45d5507ab5188318d8c77073"
+    },
+    {
+      "file": "overcast.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/overcast.svg",
+      "bbox": [
+        16,
+        61,
+        240,
+        194
+      ],
+      "sha256": "f06747b845baf8b2257a59c06d6c34a54721fe2fba64e67e76fb43754aac89a1"
+    },
+    {
+      "file": "drizzle.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/drizzle.svg",
+      "bbox": [
+        16,
+        42,
+        240,
+        213
+      ],
+      "sha256": "c3fcf5f29f90d396f2ea27e58b40b3c2173a386eb66cb4d3ab95fa9408ae4add"
+    },
+    {
+      "file": "snow.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/snow.svg",
+      "bbox": [
+        16,
+        40,
+        240,
+        216
+      ],
+      "sha256": "568b35ad4c35f7f3ee4526f89e77fab3266abc2edf637e683c0f6e1eea6bcbaf"
+    },
+    {
+      "file": "fog.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/fog.svg",
+      "bbox": [
+        16,
+        36,
+        240,
+        219
+      ],
+      "sha256": "17c66a72b349283616e876ade9ae71d17638ebfb6c68707000fe652067ed2449"
+    },
+    {
+      "file": "thunder-night.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/thunderstorms-night-rain.svg",
+      "bbox": [
+        16,
+        21,
+        240,
+        234
+      ],
+      "sha256": "fe932d3b7e6a59e05dfcce82297a4b13386d1939e4ebc6bb0c7f1e548a404239"
+    },
+    {
+      "file": "unknown.png",
+      "source": "https://cdn.meteocons.com/3.0.0-next.10/svg-static/fill/not-available.svg",
+      "bbox": [
+        16,
+        87,
+        240,
+        169
+      ],
+      "sha256": "85b180ea624f57f0892907c2796f1d839d5f2f984a414574e25b004a579fe4c7"
+    }
+  ]
+}

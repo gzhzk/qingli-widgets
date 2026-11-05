@@ -1,0 +1,30 @@
+# Personal credentials and runtime state
+**/QWeather.local.json
+**/QWeather.local.json.*
+**/*-cache*.json
+**/*-cache*.json.*
+**/*.bak
+**/*.tmp
+**/*.log
+**/Rainmeter.ini
+**/*.lnk
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+# Local tooling and binary payloads are not source deliverables
+/work/
+__pycache__/
+*.zip
+*.rmskin
+*.exe
+*.dll
+
+/dist/
+**/@UpgradeBackup/
+
+**/Settings.inc
+**/Accent.inc
+**/Material.inc

@@ -1,0 +1,9 @@
+Location marker: Phosphor map-pin-fill, MIT license.
+https://github.com/phosphor-icons/core/blob/main/assets/fill/map-pin-fill.svg
+Changes: fill #ffffff (pure white), rasterized at 256x256.
+Displayed in a square meter with native aspect ratio, without narrow stretching.
+The central circle and outer canvas are transparent; no blue pixels are added.
+The Phosphor artwork retains its MIT license independently of the skin license.
+
+Weather icons: Meteocons, Bas Milius, MIT license. Pinned 3.0.0-next.10 / svg-static / fill. PNG export has normalized transparent padding only; native shapes/colors preserved. Sources: METEOCONS-SOURCES.json; license: THIRD-PARTY-METEOCONS-LICENSE.txt.
+Location pin unchanged.
