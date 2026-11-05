@@ -19,6 +19,7 @@ ROOT_FILES = ['README.md', 'LICENSE.txt', 'ATTRIBUTION.md', 'CHANGELOG.md', 'VER
 DOC_FILES = ['FEATURES.md', 'NETWORK-AND-PRIVACY.md', 'QWEATHER.md', 'TESTING.md',
              'MAINTAINING.md', 'INSTALL-UPGRADE.md', 'PACKAGING.md', 'VM-INSTALL-TEST.md']
 DEV_FILES = ['tools/build.py', 'tests/test_build.py', 'tests/test_upgrade.py']
+PREVIEW_FILES = ['docs/images/preview.png']
 FIXED_TIME = (2026, 11, 4, 0, 0, 0)
 
 def digest(data): return hashlib.sha256(data).hexdigest()
@@ -106,7 +107,7 @@ def build(output):
         raise ValueError('Output must not overlap source files or the skin payload')
     version = (ROOT / 'VERSION').read_text(encoding='utf-8').strip()
     selected = ['Qingli/' + rel for rel in skin_files()]
-    selected += ROOT_FILES + ['docs/' + rel for rel in DOC_FILES] + DEV_FILES + ['tools/Install-Upgrade.ps1']
+    selected += ROOT_FILES + ['docs/' + rel for rel in DOC_FILES] + DEV_FILES + PREVIEW_FILES + ['tools/Install-Upgrade.ps1']
     files = {rel: read_file(ROOT / rel) for rel in selected}
     # Reject any extra file in the skin, even if the allowlist would omit it.
     actual = {p.relative_to(SKIN).as_posix() for p in SKIN.rglob('*') if p.is_file()}
